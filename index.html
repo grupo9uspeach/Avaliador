@@ -1,38 +1,270 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <div>
-            <div>
-                <h2>Desempenho</h2>
-            </div>
-            <div style="size: 100; background-color: deepskyblue">
-                <h3>Marque <b>1</b> para "<b>discordo</b> totalmente"</h3>
-                <h3>Marque <b>5</b> para "<b>concordo</b> totalmente"</h3>
-            </div>
-            <div>
-                <h4>1 - Ela sempre cumpre os prazos.</h4>
-                <input type="checkbox">
-                <label for="NDA"> Não sei opinar<!-- label-->
-                    <input type="radio" name="nota" value="1" aria-label="1"> 1 </input>
-                    <input type="radio" name="nota" value="2" aria-label="2"> 2 </input>
-                    <input type="radio" name="nota" value="3" aria-label="3"> 3 </input>
-                    <input type="radio" name="nota" value="4" aria-label="4"> 4 </input>
-                    <input type="radio" name="nota" value="5" aria-label="5"> 5 </input>
-                </label>
-            </div>
-            <div>
-                    <h4>2 - Ela sempre bate as metas.</h4>
-                    <input type="checkbox">
-                    <label for="NDA">Não sei opinar<!-- label-->
-                        <input type="radio" name="nota" value="1"> 1 </input>
-                        <input type="radio" name="nota" value="2"> 2 </input>
-                        <input type="radio" name="nota" value="3"> 3 </input>
-                        <input type="radio" name="nota" value="4"> 4 </input>
-                        <input type="radio" name="nota" value="5"> 5 </input>
-                    </label>
-                </div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./mystyle.css">
+</head>
+
+<body>
+    <div class="containerquestoes">
+        <div class="titlediv">
+            <p class="title"><b>Desempenho</b></p>
         </div>
-    </body>
+        <div>
+            <p class="infos">Marque <b>1</b> para "<b>discordo</b> totalmente" e <b>5</b> para "<b>concordo</b>
+                totalmente" </p>
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">1 - Ela sempre cumpre os prazos.</p>
+            <input type="radio" name="nota">
+            <label for="NDA"> Não sei opinar</label>
+            <input type="radio" name="nota" value="1" aria-label="1"> 1
+            <input type="radio" name="nota" value="2" aria-label="2"> 2
+            <input type="radio" name="nota" value="3" aria-label="3"> 3
+            <input type="radio" name="nota" value="4" aria-label="4"> 4
+            <input type="radio" name="nota" value="5" aria-label="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">2 - Ela sempre bate as metas.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">3 - Ela sempre ajuda os companheiros de equipe.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+        <div class="questao">
+            <p class="titlequestao">4 - Ela tem proatividade.</p>
+            <input type="radio" name="nota">
+            <label for="NDA">Não sei opinar</label>
+            <input type="radio" name="nota" value="1"> 1
+            <input type="radio" name="nota" value="2"> 2
+            <input type="radio" name="nota" value="3"> 3
+            <input type="radio" name="nota" value="4"> 4
+            <input type="radio" name="nota" value="5"> 5
+        </div>
+    </div>
+    <div class="sidenav">
+        <img src="./resources/faustop.jpg" class="imagePerfil">
+        <p class="nome">Faustop Silva Picazio</p>
+        <p class="departamento">Recursos Humanos</p>
+        <p class="andar">1º Andar</p>
+        <button type="button" class="btn btn-primary" id="btnSend">Enviar</button>
+    </div>
+
+</body>
+
 </html>
