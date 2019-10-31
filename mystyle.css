@@ -5,9 +5,18 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color:aqua; /* Black */
+    background-color: #00c9ff;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+  }
+
+
+  *{
+    background-color:#b3e1ff; /* Black */
+  }
+
+  p{
+    color:white
   }
 
 .imagePerfil{
@@ -20,9 +29,13 @@
 }
 .title{
   text-align: center;
-  font-size: 40;
+  font: 100;
+  font-size: xx-large;
+  width: 80%;
+
 }
 .infos{
+  text-align: center;
   color:grey;
 }
 
@@ -33,14 +46,27 @@
   text-align: center;
   margin: 10;
   font-size: 20;
+  background-color: #00c9ff;
+
 }
 
 .departamento{
   text-align: center;
+  background-color: #00c9ff;
+
+}
+
+  .btn-group-toggle{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
 }
 
 .andar{
   text-align: center;
+  background-color: #00c9ff;
+
 }
 
 #btnSend{
@@ -49,15 +75,17 @@
   display: block;
 }
 .titlequestao{
-  font-size: 25;
+  font-size: 25px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .questao{
-  border-bottom: solid;
-  border-width: 1 ;
+  border-color: white;
+  width: 500px;
+  height: 100px;
+  margin: auto;
 }
 
 .containerquestoes{
