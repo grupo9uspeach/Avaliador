@@ -1,6 +1,6 @@
 body{
       /* margin-bottom: 75vh; */
-      background-color:#ff88887a;;
+      background-color:#56baed;;
 }
 .main{
       margin-top: 10vh;
@@ -14,7 +14,35 @@ tr:hover, tr.selected {
     /* font-weight: bold;  */
 }
 
-.header{
+h4{
+      color: white;
+}
+
+h5{
+      color: white;
+}
+
+h1{
+      color: white;
+}
+
+h3{
+      color: white;
+}
+
+h2{
+      color: white;
+}
+
+p{
+      color: white;
+}
+
+label{
+      color: white;
+}
+
+.header{    
       margin-top: 5vh;
 }
 
