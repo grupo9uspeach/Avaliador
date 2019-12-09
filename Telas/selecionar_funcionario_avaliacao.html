@@ -11,7 +11,8 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="./script.js"></script>
+
+  <script language="JavaScript" src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/hover.css">
   <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -43,7 +44,7 @@
           </thead>
           <tbody id="tabela">
 
-            <tr class="clickable-row">
+            <tr class="clickable-row" >
               <th scope="row">1</th>
               <td class="func_name">Maria Valentina</td>
               <td class="func_local">1º Andar</td>
@@ -65,79 +66,6 @@
               <td class="func_turno">Diurno</td>
             </tr>
 
-
-
-            <tr class="clickable-row">
-                <th scope="row">4</th>
-                <td class="func_name">Maria Valentina</td>
-                <td class="func_local">1º Andar</td>
-                <td class="func_setor">TI - Desenvolvimento.</td>
-                <td class="func_turno">Diurno</td>
-              </tr>
-              <tr class="clickable-row">
-                <th scope="row">2</th>
-                <td class="func_name">Mario Junior</td>
-                <td class="func_local">3º Andar</td>
-                <td class="func_setor">TI - Infra</td>
-                <td class="func_turno">Noturno</td>
-              </tr>
-              <tr class="clickable-row">
-                <th scope="row">3</th>
-                <td class="func_name">Otavio Enzo</td>
-                <td class="func_local">4º Andar</td>
-                <td class="func_setor">Financeiro</td>
-                <td class="func_turno">Diurno</td>
-              </tr>
-              <tr class="clickable-row">
-                  <th scope="row">1</th>
-                  <td class="func_name">Maria Valentina</td>
-                  <td class="func_local">1º Andar</td>
-                  <td class="func_setor">TI - Desenvolvimento.</td>
-                  <td class="func_turno">Diurno</td>
-                </tr>
-                <tr class="clickable-row">
-                  <th scope="row">2</th>
-                  <td class="func_name">Mario Junior</td>
-                  <td class="func_local">3º Andar</td>
-                  <td class="func_setor">TI - Infra</td>
-                  <td class="func_turno">Noturno</td>
-                </tr>
-                <tr class="clickable-row">
-                  <th scope="row">3</th>
-                  <td class="func_name">Otavio Enzo</td>
-                  <td class="func_local">4º Andar</td>
-                  <td class="func_setor">Financeiro</td>
-                  <td class="func_turno">Diurno</td>
-                </tr>
-                <tr class="clickable-row">
-                    <th scope="row">1</th>
-                    <td class="func_name">Maria Valentina</td>
-                    <td class="func_local">1º Andar</td>
-                    <td class="func_setor">TI - Desenvolvimento.</td>
-                    <td class="func_turno">Diurno</td>
-                  </tr>
-                  <tr class="clickable-row">
-                    <th scope="row">2</th>
-                    <td class="func_name">Mario Junior</td>
-                    <td class="func_local">3º Andar</td>
-                    <td class="func_setor">TI - Infra</td>
-                    <td class="func_turno">Noturno</td>
-                  </tr>
-                  <tr class="clickable-row">
-                    <th scope="row">3</th>
-                    <td class="func_name">Otavio Enzo</td>
-                    <td class="func_local">4º Andar</td>
-                    <td class="func_setor">Financeiro</td>
-                    <td class="func_turno">Diurno</td>
-                  </tr>
-
-
-
-
-
-
-
-            
           </tbody>
         </table>
       </div>
@@ -151,31 +79,17 @@
             </div>
 
             <div class="data">
-              <p>
-                <h4><strong>Nome</strong></h4>
-              </p>
-              <p>Nome do funcionário</p>
+
               <p class="font-weight-bold" id="nameInfo"></p>
 
-              <p>
-                  <h4><strong>Local</strong></h4>
-              </p>
-              <p>2° andar</p>
+
               <p class="font-weight-light" id="localInfo"></p>
 
-              <p>
-                  <h4><strong>Setor</strong></h4>
-              </p>
-              <p>RH</p>
               <p class="font-weight-light" id="setorInfo"></p>
 
-              <p>
-                  <h4><strong>Turno</strong></h4>
-              </p>
-              <p>Noturno</p>
               <p class="font-weight-light" id="turnoInfo"></p>
 
-              <button type="button " class="btn btn-primary btn-custom" id="botaoAvaliar" data-toggle="button " aria-pressed="false " autocomplete="off ">
+              <button type="button " class="btn btn-primary btn-custom" id="botaoAvaliar" data-toggle="button " aria-pressed="false " autocomplete="off " onclick="window.location.href = 'questionario_desempenhos.html';">
                 Selecionar
               </button>
             </div>
